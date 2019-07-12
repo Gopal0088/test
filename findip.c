@@ -21,6 +21,9 @@ char* findnetwork(char *s){
 }
 int main() {
  char s[] = "192.168.1.1";
+
+
+
  printf("the network is :%s\n", findnetwork(s));
  return 0;
 }
