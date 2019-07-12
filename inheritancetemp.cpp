@@ -18,7 +18,7 @@ class derived :public base<T>
   public:
   derived(T val){
     dval = val;
-     cout<<"this is derievd class : "<<this<<endl;
+     cout<<"this os is derievd class : "<<this<<endl;
     }
    void get(T & val){
   base<T>::get(val);
